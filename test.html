@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" charset="utf8" />
+		<title>Cradle Test</title>
+	</head>
+	<body>
+		<div id="mount">
+			<h1>Hello world</h1>
+			<div class="main-layout">
+				<div data-cradle-view="userInfo"><p>tmont</p></div>
+				<div data-cradle-view="clickCounter">
+					<p>
+						Num clicks: <span>0</span>
+						<button>Click me</button>
+					</p>
+				</div>
+				<ul>
+					<li><a href="/photos">Click here for photos</a></li>
+					<li><a href="/about">About</a></li>
+				</ul>
+				<div data-cradle-view="content"><p>About!</p></div>
+			</div>
+		</div>
+		<script src="/cradle.js"></script>
+		<script src="/example.js"></script>
+	</body>
+</html>

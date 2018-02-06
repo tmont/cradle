@@ -1,0 +1,7 @@
+{
+	"name": "cradle",
+	"version": "0.0.1",
+	"main": "cradle.js",
+	"types": "index.d.ts",
+	"files": [ "cradle.js", "index.d.ts" ]
+}
